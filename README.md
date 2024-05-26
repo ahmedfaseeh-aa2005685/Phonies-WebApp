@@ -3,9 +3,7 @@
 ## Project Overview
 This project involves the development of an e-commerce platform similar to Qatar-Living, Amazon, or eBay. The platform caters to three types of users: Customers, Sellers, and Admins, each with specific features and capabilities. Users can log in, search for items, purchase items, view purchase history, and sellers can manage their sales and items. Additionally, the project includes generating useful statistics about the platform's performance.
 
-## Project Phases
-
-### Phase 1: Design, Data Management, and Statistics Generation
+## Project Phase
 
 1. **Design and Model Data**
    - Create a conceptual model for the application's data, including users, items, purchases, sales, etc.
@@ -27,7 +25,6 @@ This project involves the development of an e-commerce platform similar to Qatar
      - Number of buyers per location (city, country).
      - Top 3 products bought over the last 6 months.
      - Product types never purchased.
-     - ...
 
 ## How to Run the Project
 
