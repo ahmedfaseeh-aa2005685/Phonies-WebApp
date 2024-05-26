@@ -1,0 +1,23 @@
+[
+    {
+        "username": "tom",
+        "password": "8793",
+        "transaction": null,
+        "companyName":"ooredoo",
+        "bankAccount":"QIB234482300000069823"
+    },
+    {
+        "username": "jim",
+        "password": "8793",
+        "transaction": null,
+        "companyName":"Qualcomm",
+        "bankAccount":"QNB72356982300000069823"
+    },
+    {
+        "username": "mike",
+        "password": "911",
+        "transaction": null,
+        "companyName":"Pocco",
+        "bankAccount":"QIIB72634982300000069823"
+    }
+]

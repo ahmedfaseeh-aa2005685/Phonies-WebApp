@@ -1,0 +1,276 @@
+
+#addPhone{
+  display: grid;
+  margin-top: 50px;
+  grid-template-rows:  auto auto auto;
+  grid-template-columns:  auto auto auto;
+  height: 800px;
+}
+
+h2{
+  padding-bottom: 20px;
+  justify-self: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#phoneForm{
+  grid-column: 2/4;
+  grid-row: 2/4;
+  width: 60%;
+  margin: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.title{
+  grid-column: 1/3;
+  padding-top: 60px;
+  margin-bottom: -40px;
+  position: relative;
+  left: 35%;
+}
+
+
+.button {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Lucida Sans Unicode;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.vert{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Choose file button */
+.imageButton{ 
+  padding-bottom: 13px;
+
+}
+
+.imageTitle{
+  padding-top: 13px;
+}
+
+.userTab{
+  color: white;
+  padding: 7px;
+  display: flex;
+  height: 80px;
+  font-size: 14px;
+  gap: 10px;
+}
+
+.transDiv{
+  display: flex;
+  width: auto;
+  margin-right: -100px;
+}
+.transDiv:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0px 10px
+}
+.transaction{
+  align-self: center;
+}
+.transLogo{
+  padding-left: 5px;
+  width: 20%;
+  height: 30%;
+  align-self: center;
+}
+
+.sellDiv{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: auto;
+}
+.sellDiv:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.saleDiv{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 40%;
+}
+.saleDiv:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.sellLogo{
+  padding-left: 10px;
+  width: 30%;
+  height: 50%;
+  align-self: center;
+}
+
+.saleLogo{
+  padding-left: 10px;
+  width: 30%;
+  height: 40%;
+  align-self: center;
+}
+
+@media (max-width: 800px) {
+
+
+  .nav1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+    align-content: center;
+
+    .logo{
+
+        a:hover{
+            background-color: black;
+        }
+
+        img{
+            width: 5rem;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    #loginButton{
+        justify-self: end;
+        margin-right: 15%;
+    }
+
+    .logoutButton, .login{
+        padding: 2%;
+        font-size: 13px;
+    }
+
+    .user,.guest{
+        padding-left: 2%;
+        font-size: 13px;
+        width: auto;
+    }
+
+    .userTab{
+        display: flex;
+        align-items: center;
+        gap: 0;
+        width: auto;
+    }
+
+    .username{
+        padding: 10px 0;
+    }
+
+    .username:hover{
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+    }
+
+    .sellDiv, .saleDiv{
+        height: 50%;
+        width: 100%;
+        p{
+            font-size: 10px;
+        }
+    }
+
+    .saleLogo, .sellLogo{
+        padding: 0;
+    }
+
+    .transDiv{
+        height: 50%;
+        width: 100%;
+        .transaction{
+            font-size: 12px;
+        }
+    }
+
+    .usrDetails{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .detailsLogo{
+        width: 30%;
+    }
+
+}
+
+  #phoneForm{
+    font-size: 13px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="url"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  #submitButton{
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+}

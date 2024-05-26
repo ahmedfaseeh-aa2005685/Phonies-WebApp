@@ -1,0 +1,793 @@
+*{
+    font-family: Lucida Sans Unicode;
+    
+}
+
+.MAIN {
+    background-color: rgb(238, 238, 238);
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+/* Navigation */
+
+
+.nav1{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 98%;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background-color: black;
+}
+
+.logo {
+
+    a:hover{
+        background-color: black;
+    }
+
+    img {
+        width: 140px;
+        height: 50px;
+        transition: transform 0.3s ease;
+    }
+}
+
+.searchItem {
+    width: 85%;
+    justify-content: end;
+    display: flex;
+    position: relative;
+
+    .sButton {
+       background-color: transparent;
+       border: none;
+
+       img{
+        border-radius: 5px;
+       }
+    }
+}
+
+.searchInput {
+    width: 30rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+nav a {
+    
+    padding: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.searchlink:hover{
+    background: black;
+}
+
+
+/* Latest Addition */
+.banner {
+    margin-top: 15vh;
+    .LatestTitle {
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    img {
+        width: 100%;
+        height: 400px;
+        border-radius: 30px;
+    }
+}
+
+
+
+
+/* Featured Phones */
+.featuredTitle {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: #FF6C00;
+    padding: 0.5rem;
+    border-radius: 30px;
+}
+
+#featuredPhones {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.phoneItem {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.featuredPhone{
+    background-color: #fff;
+}
+
+.featuredPhone:hover {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.phoneItem img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.phoneInfo {
+    padding: 0.5rem;
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Sidebar News */
+.SidebarNews {
+    /* news sidebar */
+}
+
+/* Footer */
+.boringInfo {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+
+.footerStuff{
+    margin-top: 100px;
+}
+
+
+/*will effect the featured phone*/
+.featuredPhone{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-top: 13px;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.featuredPhone:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+/*will effect the img of the phone*/
+.phoneImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.phoneLink{
+    text-decoration: none;
+    color: black;
+}
+
+.phone{
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 1vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1%;
+    background-color:white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 210px;
+}
+
+.phone:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/*will effect the img of the featured phone*/
+.featuredPhoneImage{
+    width: 200px;
+    height: 200px;
+}
+/*will effect the details of the phones that appear under the image of the phone*/
+.phoneDetails{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    padding: 1.1%;
+
+    .name, .year, .storage{
+        font-size: 14px;
+    }
+}
+
+/* will effect the area that contains the phones under the featured phones*/
+.itemsheader{
+    text-align: center;
+    padding: 15px;
+    background-color:#FF6C00;
+    color: white;
+    border-radius: 30px;
+}
+
+/* this effects the name brand of the phone that appears on top of the phone's image*/
+.phoneBrand{
+    font-style:italic;
+    font-weight: bold;
+}
+/* controls the name that appears on the top after you login*/
+.username{
+    font-size: 100%;
+    padding: 10px;
+    color: #f4f4f4;
+}
+
+.username:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.items{
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.logoutButton {
+    transition: background-color 0.3s ease;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+.logoutButton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#typeContain{
+
+    display: flex;
+    button {
+        margin: 5px;
+        padding: 15px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        border-radius: 10px;
+        display: block;
+        border: 0px;
+        font-weight: 700;
+        font-size: 14px;
+        box-shadow: 0px 0px 14px -7px #f09819;
+        background-image: linear-gradient(45deg, #0c0b0b 0%, #272624  51%, #5a5a5a  100%);
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    button:hover{
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    button:active {
+        transform: scale(0.95);
+    }
+      
+}
+
+.price{
+    text-align: center;
+    font-weight: bolder;
+    padding: 5%;
+    border-radius: 10px;
+    font-size: small;
+
+    strong{
+        font-size: 20px;
+        margin-right: 3px;
+    }
+}
+
+
+
+/* controls the logo that appears next to search*/
+.cancelSearch{
+
+}
+.guest{
+    color: white;
+}
+
+#loginButton{
+    justify-self: end;
+}
+
+.login{
+    transition: background-color 0.3s ease-in-out;
+    order: -1;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+/*controls the username and logo that appears next to the search bar*/
+.user{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-weight: bolder;
+    width: 30rem;
+    justify-content: center;
+
+    .username::before{
+        content: ": ";
+    }
+
+    .guest::before{
+        content: ": ";
+    }
+}
+/* used to put a gap between the user logo and the user name that appears next to the search bar*/
+.userImage{
+    margin-bottom: 7px;
+}
+
+.details{
+    margin: 5px;
+}
+/*controls the "price year storage year" sort buttons*/
+
+
+.sortContainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sortName, .sortPrice, .sortYear, .sortStorage{
+    width: 100%;
+}
+/*controls the asc and dsc buttons for sorting*/
+.sortType{
+    width: 100%;
+}
+
+.userTab{
+    color: white;
+    padding: 7px;
+    display: flex;
+    height: 80px;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.transDiv{
+    display: flex;
+    width: auto;
+    padding: 0px 10px
+}
+
+.transDiv:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.transaction{
+    align-self: center;
+}
+.transLogo{
+    padding-left: 5px;
+    width: 20%;
+    height: 30%;
+    align-self: center;
+}
+
+.sellDiv{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 8rem;
+}
+.sellDiv:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.saleDiv{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+}
+.saleDiv:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.sellLogo{
+    padding-left: 10px;
+    width: 30%;
+    height: 50%;
+    align-self: center;
+}
+
+.saleLogo{
+    padding-left: 10px;
+    width: 30%;
+    height: 40%;
+    align-self: center;
+}
+
+.usrDetails{
+    display: flex;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+
+.usrDetails:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.details{
+    align-self: center;
+}
+
+.detailsLogo{
+    align-self: center;
+}
+
+#searcher{
+    width: 55%;
+    display: flex;
+    justify-content: end;
+}
+
+
+#balance{
+    align-self: center;
+}
+
+#balance::before{
+    content: "$: ";
+}
+
+
+/*Stats Button*/
+
+.statsButton{
+    width: 100px;
+    transition: background-color 0.3s ease;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    font-weight: bolder;
+
+    .statsLink{
+        background: none;
+    }
+}
+    
+
+.statsButton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+@media (max-width: 850px) {
+
+
+
+    .MAIN{
+        padding-top: 2rem;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+
+    .nav1{
+        width: 100%;
+        height: 14%;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 4rem 40%;
+        padding: 0px;
+        justify-content: center;
+        align-content: center;
+
+        .logo{
+
+            a:hover{
+                background-color: black;
+            }
+
+            img{
+                width: 5rem;
+                padding: 0;
+                padding-top: 1rem;
+                margin: 0;
+            }
+        }
+
+        .searchInput{
+            width: 20rem;
+            margin-left: 0px;
+            padding: 0.5vh;
+            font-size: 12px;
+        }
+
+        #searcher{
+            justify-self: end;
+            width: 100%;
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 3vh;
+            }
+        }
+
+        .cancelSearch{
+            margin-top: -0.3rem;
+        }
+
+        #loginButton{
+            margin-right: 20%;
+        }
+
+        .logoutButton, .login{
+            padding: 2%;
+            font-size: 13px;
+        }
+
+        .user{
+            padding-left: 10%;
+            font-size: 13px;
+            width: 600px;
+            justify-content: start;
+        }
+
+        .userTab{
+            display: flex;
+            align-items: center;
+            gap: 0;
+        }
+
+        .username:hover{
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+
+        .sellDiv, .saleDiv{
+            height: 50%;
+            width: 90%;
+            p{
+                font-size: 11px;
+            }
+        }
+
+        .saleLogo, .sellLogo{
+            padding: 0;
+        }
+
+        .transDiv{
+            height: 50%;
+            width: 100%;
+            .transaction{
+                font-size: 12px;
+            }
+        }
+
+        .usrDetails{
+            width: 100%;
+            font-size: 12px;
+        }
+
+        .detailsLogo{
+            width: 30%;
+        }
+        
+
+    }
+
+    .banner{
+
+        img {
+            height: 10%;
+        }
+ 
+    }
+
+    .featuredTitle{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #featuredPhone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featuredPhone{
+        width: 80%;
+        height: 90%;
+        img{
+            width:100%;
+            height: 200px;
+        }
+        P{
+            font-size: 12px;
+            padding: 0;
+            margin: 1%;
+        }
+        .phoneBrand{
+            padding-bottom: 3%;
+        }
+        .price{
+            strong{
+                font-size: 15px;
+            }
+            padding-top: 2%;
+            font-size: 10px;
+        }
+    }
+
+    .featuredPhones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .searchInput, nav a {
+        font-size: 0.9rem;
+    }
+
+
+    .itemsheader{
+        font-size: 12px;
+        img{
+            width: 12px;
+        }
+    }
+
+    #typeContain{
+        button{
+            font-size: 7px;
+            padding: 1vh;
+        }
+    }
+
+    .phone{
+        padding: 0.5rem;
+        width: 110px;
+        height: 205px;
+        img{
+            width: 6rem;
+            height: 6rem;
+        }
+        p{
+            font-size: 10px;
+            padding: 0;
+            margin: 1%;
+        }
+        .phoneBrand{
+            padding-bottom: 3%;
+        }
+        .price{
+            strong{
+                font-size: 12px;
+            }
+            padding-top: 2%;
+            padding-bottom: 3%;
+            font-size: 10px;
+        }
+        .phoneDetails{
+            margin-top: 0.5rem;
+            p{
+                font-size: 8px;
+            }
+        }
+    }
+
+    .items{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+#balance{
+    color: #ddd;
+}
+#salesContainer{
+.transBox{
+    display: flex;
+    justify-content: start;
+   margin-bottom: 50px;
+}
+.transTop{
+justify-self: start;
+}
+.transBottom{
+    width: 900px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row: auto auto auto;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1.5%;
+}
+}

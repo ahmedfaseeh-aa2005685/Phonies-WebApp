@@ -1,0 +1,452 @@
+[
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S23",
+    "year": 2023,
+    "price": 1650,
+    "storage": 256,
+    "img": "../Media/images/s23.jpg",
+    "seller": "mike",
+    "quantity": 2
+  },
+  {
+    "brand": "Apple",
+    "name": "IPhone 14",
+    "year": 2023,
+    "price": 2300,
+    "storage": 128,
+    "img": "../Media/images/iPhone14.jpg",
+    "seller": "tom",
+    "quantity": 1
+  },
+  {
+    "brand": "One Plus",
+    "name": "9T",
+    "year": 2022,
+    "price": 800,
+    "storage": 256,
+    "img": "../Media/images/9T.jpg",
+    "seller": "mike",
+    "quantity": 3
+  },
+  {
+    "brand": "Google",
+    "name": "Pixle 5",
+    "year": 2018,
+    "price": 650,
+    "storage": 128,
+    "img": "../Media/images/pixel5.jpg",
+    "seller": "tom",
+    "quantity": 5
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S24 Ultra",
+    "year": 2024,
+    "price": 5300,
+    "storage": 512,
+    "img": "../Media/images/s24U.jpg",
+    "seller": "tom",
+    "quantity": 1
+  },
+  {
+    "brand": "Nokia",
+    "name": "P10",
+    "year": 2022,
+    "price": 500,
+    "storage": 64,
+    "img": "../Media/images/nokia.jpg",
+    "seller": "tom",
+    "quantity": 7
+  },
+  {
+    "brand": "Xaomi",
+    "name": "Mi 10",
+    "year": 2023,
+    "price": 1050,
+    "storage": 256,
+    "img": "../Media/images/mi10.jpg",
+    "seller": "tom",
+    "quantity": 8
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S21 Plus",
+    "year": 2022,
+    "price": 1000,
+    "storage": 256,
+    "img": "../Media/images/s21plus.jpg",
+    "seller": "tom",
+    "quantity": 3
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 7",
+    "year": 2023,
+    "price": 1899,
+    "storage": 128,
+    "img": "../Media/images/pixel7.jpg",
+    "seller": "tom",
+    "quantity": 2
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 13 Pro",
+    "year": 2022,
+    "price": 2099,
+    "storage": 256,
+    "img": "../Media/images/iphone13.jpg",
+    "seller": "mike",
+    "quantity": 2
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Redmi Note 12 Pro+",
+    "year": 2024,
+    "price": 1450,
+    "storage": 256,
+    "img": "../Media/images/redmi12.jpg",
+    "seller": "mike",
+    "quantity": 1
+  },
+  {
+    "brand": "Sony",
+    "name": "Xperia 1 IV",
+    "year": 2023,
+    "price": 5499,
+    "storage": 512,
+    "img": "../Media/images/sonyx.jpg",
+    "seller": "mike",
+    "quantity": 4
+  },
+  {
+    "brand": "OnePlus",
+    "name": "Nord CE 3",
+    "year": 2024,
+    "price": 1399,
+    "storage": 128,
+    "img": "../Media/images/OnePlusCE.jpg",
+    "seller": "mike",
+    "quantity": 1
+  },
+  {
+    "brand": "Vivo",
+    "name": "V27 Pro",
+    "year": 2024,
+    "price": 1799,
+    "storage": 256,
+    "img": "../Media/images/vivo.PNG",
+    "seller": "mike",
+    "quantity": 6
+  },
+  {
+    "brand": "Huawei",
+    "name": "Mate 50 Pro",
+    "year": 2023,
+    "price": 5249,
+    "storage": 512,
+    "img": "../Media/images/mat.jpg",
+    "seller": "mike",
+    "quantity": 7
+  },
+  {
+    "brand": "Honor",
+    "name": "Magic 5 Lite",
+    "year": 2024,
+    "price": 1420,
+    "storage": 128,
+    "img": "../Media/images/honor.PNG",
+    "seller": "tom",
+    "quantity": 4
+  },
+  {
+    "brand": "ZTE",
+    "name": "Axon 40 Pro",
+    "year": 2024,
+    "price": 2849,
+    "storage": 256,
+    "img": "../Media/images/Axon.jpg",
+    "seller": "tom",
+    "quantity": 3
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 14",
+    "year": 2022,
+    "price": 4499,
+    "storage": 1028,
+    "img": "../Media/images/iphone14.jpg",
+    "seller": "tom",
+    "quantity": 9
+  },
+  {
+    "brand": "Google",
+    "name": "PIXEL 7 Pro",
+    "year": 2023,
+    "price": 3499,
+    "storage": 256,
+    "img": "../Media/images/pixel7.jpg",
+    "seller": "tom",
+    "quantity": 7
+  },
+  {
+    "brand": "Microsoft",
+    "name": "Surface Duo 2",
+    "year": 2020,
+    "price": 6499,
+    "storage": 256,
+    "img": "../Media/images/duo.PNG",
+    "seller": "mike",
+    "quantity": 4
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S23 Plus",
+    "year": 2023,
+    "price": 3099,
+    "storage": 256,
+    "img": "../Media/images/s23.jpg",
+    "seller": "mike",
+    "quantity": 3
+  },
+  {
+    "brand": "Huawei",
+    "name": "Mate 50 Ultra",
+    "year": 2020,
+    "price": 4499,
+    "storage": 256,
+    "img": "../Media/images/mat.jpg",
+    "seller": "mike",
+    "quantity": 1
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 12",
+    "year": 2020,
+    "price": 2499,
+    "storage": 256,
+    "img": "../Media/images/iphone13.jpg",
+    "seller": "mike",
+    "quantity": 2
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold 5",
+    "year": 2024,
+    "price": 8499,
+    "storage": 1028,
+    "img": "../Media/images/fold5.jpg",
+    "seller": "mike",
+    "quantity": 3
+  },
+  {
+    "brand": "ZTE",
+    "name": "Axon 40",
+    "year": 2020,
+    "price": 499,
+    "storage": 128,
+    "img": "../Media/images/Axon.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Motorola",
+    "name": "Moto G83",
+    "year": 2024,
+    "price": 1496.3,
+    "storage": 128,
+    "img": "../Media/images/MotoG83.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "LG",
+    "name": "Wing 5G",
+    "year": 2022,
+    "price": 2773.3,
+    "storage": 256,
+    "img": "../Media/images/LGWing5G.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Asus",
+    "name": "ROG Phone 6",
+    "year": 2023,
+    "price": 4086.3,
+    "storage": 512,
+    "img": "../Media/images/AsusROGPhone6.PNG",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "BlackBerry",
+    "name": "KEY2 LE",
+    "year": 2018,
+    "price": 1298.3,
+    "storage": 64,
+    "img": "../Media/images/BlackBerryKEY2LE.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "TCL",
+    "name": "20 Pro 5G",
+    "year": 2024,
+    "price": 1846.3,
+    "storage": 128,
+    "img": "../Media/images/TCL20Pro5G.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Sharp",
+    "name": "Aquos Zero 3",
+    "year": 2023,
+    "price": 3356.3,
+    "storage": 256,
+    "img": "../Media/images/SharpAquosZero3.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Sony",
+    "name": "Xperia 1 V",
+    "year": 2024,
+    "price": 5193.3,
+    "storage": 512,
+    "img": "../Media/images/SonyXperia1V.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 8a",
+    "year": 2024,
+    "price": 1846.3,
+    "storage": 128,
+    "img": "../Media/images/Pixel8a.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "OnePlus",
+    "name": "Nord 3",
+    "year": 2024,
+    "price": 2606.3,
+    "storage": 256,
+    "img": "../Media/images/OnePlusNord3.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Redmi Note 13 Pro",
+    "year": 2024,
+    "price": 4836.3,
+    "storage": 256,
+    "img": "../Media/images/RedmiNote13Pro.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Nokia",
+    "name": "X30 5G",
+    "year": 2024,
+    "price": 1496.3,
+    "storage": 128,
+    "img": "../Media/images/NokiaX30.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy A54",
+    "year": 2024,
+    "price": 1666.3,
+    "storage": 128,
+    "img": "../Media/images/A54.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone SE 4",
+    "year": 2024,
+    "price": 2043.3,
+    "storage": 128,
+    "img": "../Media/images/iPhoneSE4.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Vivo",
+    "name": "X90 Pro+",
+    "year": 2024,
+    "price": 8541.3,
+    "storage": 512,
+    "img": "../Media/images/VivoX90Pro+.jpeg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Huawei",
+    "name": "Nova 10 SE",
+    "year": 2024,
+    "price": 1846.3,
+    "storage": 128,
+    "img": "../Media/images/HuaweiNova10SE.PNG",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Honor",
+    "name": "Magic Vs",
+    "year": 2024,
+    "price": 6716.3,
+    "storage": 256,
+    "img": "../Media/images/HonorMagicVs.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "ZTE",
+    "name": "Nubia Z50 Ultra",
+    "year": 2024,
+    "price": 3111.3,
+    "storage": 512,
+    "img": "../Media/images/ZTENubiaZ50Ultra.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Microsoft",
+    "name": "Surface Duo 3",
+    "year": 2024,
+    "price": 8996.3,
+    "storage": 512,
+    "img": "../Media/images/SurfaceDuo3.PNG",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Tecno",
+    "name": "Phantom X3",
+    "year": 2024,
+    "price": 3333.3,
+    "storage": 256,
+    "img": "../Media/images/TecnoPhantomX3.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold 5",
+    "year": 2024,
+    "price": 8999,
+    "storage": 512,
+    "img": "../Media/images/GalaxyZFold5.jpg",
+    "quantity": 1,
+    "seller": "jim"
+  }
+]

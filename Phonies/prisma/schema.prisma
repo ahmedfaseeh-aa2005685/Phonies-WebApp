@@ -1,0 +1,82 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Seller {
+  id           String  @id @default(cuid())
+  username     String  @unique
+  password     String
+  phones       Phone[] 
+  transactions Transaction[] 
+  companyName  String
+  bankAccount  String
+  type String @default("seller")
+
+}
+
+
+model Customer {
+  id           String  @id @default(cuid())
+  username     String  @unique
+  password     String
+  transactions Transaction[] 
+  surname      String
+  money        Float
+  address      String
+  type String @default("customer")
+}
+
+
+model Admin {
+  id           String  @id @default(cuid())
+  username     String  @unique
+  password     String
+  type String @default("admin")
+}
+
+
+model Phone {
+  id       String  @unique @default(cuid())
+  img      String
+  brand    String
+  name     String
+  year     Int
+  price    Float
+  storage  Int
+  seller   String
+  quantity Int
+  sellerPhone Seller @relation(fields: [seller], references: [username],onDelete: Cascade )
+  sold     Boolean @default(false)
+  featured Boolean @default(false)
+}
+
+model Transaction {
+  id       String   @unique @default(cuid())
+  buyer    String
+  seller   String
+  phone    String
+  quantity Int
+  date     DateTime @default(now())
+  total    Int
+  buyerTrans  Customer @relation(fields: [buyer], references: [username],onDelete: Cascade)
+  sellerTrans Seller   @relation(fields: [seller], references: [username],onDelete: Cascade)
+}
+
+model Stat {
+  id                 String   @unique @default(cuid())
+  currentListedPhone Int
+  soldPhones         Int
+  numberOfSellers    Int
+  numberOfCustomers  Int
+  vistedToday        Int      @default(0)
+  listedToday        Int      @default(0)
+  date               DateTime @default(now())
+}

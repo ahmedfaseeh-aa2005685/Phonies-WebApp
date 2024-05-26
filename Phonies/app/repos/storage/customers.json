@@ -1,0 +1,23 @@
+[
+    {
+        "username": "ahmad",
+        "password": "974",
+        "money": 100000,
+        "transaction": null,
+        "surname":"AL-Thani",
+        "address":"Qatar Doha Al Rayyan Zone 55 street 1037 Home 5"
+
+    },
+
+    {
+        "username": "walter",
+        "password": "420",
+        "money": 2500,
+        "transaction": null,
+        "surname":"White",
+        "address":"USA 308 Negra Arroyo Lane, Albuquerque, New Mexico 87104 "
+        
+    }
+
+
+]

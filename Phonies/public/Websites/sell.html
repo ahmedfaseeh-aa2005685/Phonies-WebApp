@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../Scripts/sell.js" type="module"></script>
+    <link rel="stylesheet" href="../Styles/MyStyle.css">
+    <link rel="stylesheet" href="../Styles/sell.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Media/Icons/p.png">
+    <title>Sell A Phone</title>
+</head>
+<body>
+    <section id="'Navigation">
+        <nav>
+            <div class="nav1">
+
+                 <div class="navItem" id="logo">
+                        <div class="logo">
+                            <a href="../Websites/main.html">
+                                <img src="../Media/Icons/phoney.png" alt="Logo" width="80" height="80">
+                            </a>
+                        </div>
+                 </div>
+
+                 <div class="navItem">
+                    
+                    
+                 </div>
+                 <button id="statsButton" class="statsButton">
+                  <a class="statsLink" href="../../stats">
+                      Statistics
+                  </a>
+              </button>
+
+                 <div class="user" id="user"></div>\
+                 <div class="navItem" id="loginButton">
+                    <a class="login" href="./login.html" id="login">Login</a><!--  Put some links here-->
+                 </div>
+            </div>
+    </nav>
+    </section>
+    <main id="addPhone">
+      <h2 class="title">Add Phone To Sell</h2>
+        <section id="phoneForm">
+          <div class="form-group">
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand" required >
+          </div>
+          <div class="form-group">
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model" required >
+          </div>
+          <div class="form-group">
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required value=2018 min=2018 max=2025 step=1 >
+          </div>
+          <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" step=1 required placeholder="199.99" > 
+          </div>
+          <div class="form-group">
+            <label for="storage">Storage (GB):</label>
+            <select name="storage" id="storage">
+              <option value=32>32</option selected>
+              <option value=64>64</option>
+              <option value=128>128</option>
+              <option value=256>256</option>
+              <option value=512>512</option>
+              <option value=1028>1028</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="image" class="imageTitle">Select Image</label>
+            <input type="file" placeholder="Select Image" class="imageButton" id="image" accept="../Medai/Image/*,.jpg" >
+          </div>
+          <div class="form-group">
+            <label for="quantity">Quantity in Stock:</label>
+            <input type="number" id="quantity" name="quantity" min=1 required value=1>
+          </div>
+          <div class="vert"  id="submitTab" class="submitButton">
+            <button class="button"  id="submitButton">Add Phone</button>
+          </div>
+        </section>
+      </main>
+      
+</body>
+</html>

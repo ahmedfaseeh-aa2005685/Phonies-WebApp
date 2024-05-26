@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "ecommerce-basics": "^1.1.0",
+    "local-object-store": "^1.1.0"
+  },
+  "name": "cmps350-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

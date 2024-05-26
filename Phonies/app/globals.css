@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+
+.colored{
+  background-color: black;
+  color: #FF6C00 ;
+  cursor:default;
+}
+.colored:hover{
+  background-color: #FF6C00;
+  color: black;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.color{
+  color: white;
+}
